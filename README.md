@@ -3,13 +3,29 @@
 	<title>Ciudad Mitad del Mundo</title>
 	<style>
 	      h1 {
-		color: red;
+		color: #900C3F;
+      	font-family: Candara;
+      	font-size: 30pt;
 	      }
+      
+      		h2 {
+		color: #FF5733;
+      	font-family: Brush Script MT;
+      	font-size: 25pt;
+	      }
+      
 	      p {
-		color: blue;
+		color: #C70039;
+      	font-family: Cambria;
+     	font-size: 15pt;
 	      }
+      
 	      body {
-		background-color: #FFF5DA;
+		background-color: #F9EBEA;
+	      }
+      
+     	.calculo{
+		font-weight: bolder;
 	      }
     </style>
 </head>
@@ -21,11 +37,19 @@
 			<h2>Atracción turística</h2>
 			<p>La Ciudad Mitad del Mundo es un monumento que marca la línea ecuatorial, donde se puede pararse con un pie en cada hemisferio. Es una de las atracciones turísticas más populares de Ecuador.</p>
 			<img src="img/mitad-del-mundo-quito.jpg"/>
+          
+          <p>La principal atracción del lugar es el monumento a la Mitad del Mundo, el cual tiene como finalidad el resaltar la ubicación exacta de la línea ecuatorial, del cual el país toma su nombre, y destacar también la misión geodésica franco-española del siglo XVIII que ubicó el sitio aproximado por el cual pasa la línea equinoccial.
+            
+También se encuentra el Museo Etnográfico Mitad del Mundo, un museo sobre la etnografía indígena de Ecuador. Una pequeña ciudad que rodea el monumento actúa como centro turístico, ofreciendo una réplica de una ciudad colonial española llamada "Ciudad Mitad del Mundo".</p>
+			<img src="img/612664395a40232133447d33247d383533303033313133.jfif"/>
 		</section>
 		
     <h1>Calculadora de Distancia a la Mitad del Mundo</h1>
-    <p>Su ubicación actual: <span id="location"></span></p>
-    <p>Distancia a la mitad del mundo: <span id="distance"></span></p>
+    <p class="calculo">Su ubicación actual:</p>
+  	<p><span id="location"></span></p>
+  
+    <p class="calculo">Distancia a la mitad del mundo:</p>
+  	<p><span id="distance"></span></p>
 
     <script>
       // Obtener la ubicación actual
