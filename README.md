@@ -15,7 +15,7 @@
 </head>
 <body>
 	<header>
-		<h1>Ciudad Mitad del Mundo</h1>
+		Ciudad Mitad del Mundo
 	</header>
 
 		<section>
