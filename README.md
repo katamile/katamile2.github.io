@@ -20,7 +20,7 @@
 		<section>
 			<h2>Atracción turística</h2>
 			<p>La Ciudad Mitad del Mundo es un monumento que marca la línea ecuatorial, donde se puede pararse con un pie en cada hemisferio. Es una de las atracciones turísticas más populares de Ecuador.</p>
-			<img src="/img/mitad-del-mundo-quito.jpg"/>
+			<img src="img/mitad-del-mundo-quito.jpg"/>
 		</section>
 		
     <h1>Calculadora de Distancia a la Mitad del Mundo</h1>
