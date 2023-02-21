@@ -55,5 +55,6 @@
         document.getElementById("distance").innerHTML = d + " km";
       });
     </script>
+</main>
 </body>
 </html>
